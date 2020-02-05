@@ -47,14 +47,14 @@ $(document).ready(function() {
         $(".list").addClass('closed');
         $(".mywth").removeClass('hidden');
     });
-    /*$(".mywth").click(function(event) {
+   $(".mywth").click(function(event) {
         var wt = $("body").width();
         if (wt > 750) {
             window.location.href = "https://tianqi.qq.com/";
         } else {
             //window.location.href = "https://apip.weatherdt.com/h5.html?id=JrCSiXLssE";
         }
-    });*/
+    });
 
 });
 
